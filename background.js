@@ -6,6 +6,7 @@ var getURL = function(){
     tab = tabs[0];
     var url = tab.url;
     var name = Date.now() / 1000 | 0 // unix timestamp
+    console.log("http://res.cloudinary.com/imgrab/image/upload/"+name+".jpg");
     makeRequest(url, name);
   });
 
